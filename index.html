@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Those Dark Places - Character Sheet</title>
+
+    <!-- styles -->
+	<link rel="icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+    <link href="css/tdp-screen.css" rel="stylesheet" media="screen,print">
+    <link href="css/tdp-print.css" rel="stylesheet" media="print">    
+  </head>
+  <body>
+	<main class="container">
+		<!--  bg -->
+		<img class="tdp-bg" src="img/bw.png" />
+		
+		<input class="tdp-input tdp-name" type="text" name="name" />
+		<input class="tdp-input tdp-description" type="text" name="description" />
+		
+		<input class="tdp-case tdp-case-1 tdp-charisma tdp-charisma-1" type="radio" name="charisma-1" value="1" data-attribute="charisma" />
+		<input class="tdp-case tdp-case-2 tdp-charisma tdp-charisma-2" type="radio" name="charisma-2" value="2" data-attribute="charisma" />
+		<input class="tdp-case tdp-case-3 tdp-charisma tdp-charisma-3" type="radio" name="charisma-3" value="3" data-attribute="charisma" />
+		<input class="tdp-case tdp-case-4 tdp-charisma tdp-charisma-4" type="radio" name="charisma-4" value="4" data-attribute="charisma" />
+
+		<input class="tdp-case tdp-case-1 tdp-agility tdp-agility-1" type="radio" name="agility-1" value="1" data-attribute="agility" />
+		<input class="tdp-case tdp-case-2 tdp-agility tdp-agility-2" type="radio" name="agility-2" value="2" data-attribute="agility" />
+		<input class="tdp-case tdp-case-3 tdp-agility tdp-agility-3" type="radio" name="agility-3" value="3" data-attribute="agility" />
+		<input class="tdp-case tdp-case-4 tdp-agility tdp-agility-4" type="radio" name="agility-4" value="4" data-attribute="agility" />
+
+		<input class="tdp-case tdp-case-1 tdp-strength tdp-strength-1" type="radio" name="strength-1" value="1" data-attribute="strength" />
+		<input class="tdp-case tdp-case-2 tdp-strength tdp-strength-2" type="radio" name="strength-2" value="2" data-attribute="strength" />
+		<input class="tdp-case tdp-case-3 tdp-strength tdp-strength-3" type="radio" name="strength-3" value="3" data-attribute="strength" />
+		<input class="tdp-case tdp-case-4 tdp-strength tdp-strength-4" type="radio" name="strength-4" value="4" data-attribute="strength" />
+
+		<input class="tdp-case tdp-case-1 tdp-education tdp-education-1" type="radio" name="education-1" value="1" data-attribute="education" />
+		<input class="tdp-case tdp-case-2 tdp-education tdp-education-2" type="radio" name="education-2" value="2" data-attribute="education" />
+		<input class="tdp-case tdp-case-3 tdp-education tdp-education-3" type="radio" name="education-3" value="3" data-attribute="education" />
+		<input class="tdp-case tdp-case-4 tdp-education tdp-education-4" type="radio" name="education-4" value="4" data-attribute="education" />
+		
+		<input class="tdp-color" type="checkbox" name="color" id="color" />
+		<label for="color">Color</label>
+	</main>
+
+	<!-- javascript -->
+	<script src="js/lib/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/lib/underscore/1.12.0/underscore-min.js"></script>
+	<script src="js/tdp.js"></script>
+	<script src="js/tdp-case.js"></script>
+  </body>
+</html>

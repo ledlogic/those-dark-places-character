@@ -1,0 +1,80 @@
+* {
+	color: #163640;
+	/* @see https://fonts.google.com/specimen/Jura */
+	font-family: 'Jura', sans-serif;	
+}
+label {
+	font-weight: 600;
+	margin: 0 0.5em;
+}
+span {
+	margin: 0 0.5em;
+}
+textarea, div[contenteditable=true] {
+    overflow: hidden;
+    resize: none;
+}
+footer {
+	position: absolute;
+	left: 200px;	
+	top: 1150px;	
+	width: 550px;
+}
+footer a {
+	font-style: italic;
+}
+.container {
+	position: relative;	
+}
+.tdp-bg {
+	width: 100%;
+}
+.tdp-input {
+	border: none;
+    border-bottom: 1px solid #ccc;
+    height: 2.5%;
+    font-size: 80%;
+}
+.tdp-name {
+	position: absolute;
+	width: 15%;
+	top: 14%;
+	left: 32%;
+}
+
+.tdp-description {
+	position: absolute;
+	width: 15%;
+	top: 20%;
+	left: 32%;
+}
+.tdp-case {
+	position: absolute;
+	width: 3%;
+	height: 3%;
+	margin: 0;
+}
+.tdp-case-1 {
+	left: 21.63%;
+}
+.tdp-case-2 {
+	left: 25.08%;
+}
+.tdp-case-3 {
+	left: 28.48%;
+}
+.tdp-case-4 {
+	left: 32.00%;
+}
+.tdp-charisma {
+	top: 30.1%;
+}
+.tdp-agility {
+	top: 35%;
+}
+.tdp-strength {
+	top: 40.2%;
+}
+.tdp-education {
+	top: 45.05%;
+}
