@@ -1,6 +1,5 @@
 tdp.case = {
 	init: function() {
-		$(".tdp-color").on("click", tdp.case.color);
 		$(".tdp-case").on("click", tdp.case.case);
 	},
 	case: function() {
@@ -14,16 +13,6 @@ tdp.case = {
 			} else {
 				$input.prop("checked", false);
 			}
-		}
-	},
-	color: function() {
-		var $color = $(this);
-		var checked = $color.prop("checked");
-		var $bg = $(".tdp-bg");
-		if (checked) {
-			$bg.attr("src", "img/color.png");
-		} else {
-			$bg.attr("src", "img/bw.png");
 		}
 	}
 };

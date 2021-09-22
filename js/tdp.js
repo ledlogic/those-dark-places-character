@@ -6,7 +6,9 @@ $(document).ready(function() {
 
 var tdp = {
 	init: function() {
+		tdp.bg.init();
 		tdp.case.init();
+		tdp.position.init();
 	},
 
 	log: function(s) {

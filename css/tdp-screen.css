@@ -30,29 +30,29 @@ footer a {
 	width: 100%;
 }
 .tdp-input {
+    background-color: transparent;
 	border: none;
     border-bottom: 1px solid #ccc;
-    height: 2.5%;
     font-size: 80%;
+    height: 2.5%;
 }
 .tdp-name {
+	left: 32%;
 	position: absolute;
-	width: 15%;
 	top: 14%;
-	left: 32%;
-}
-
-.tdp-description {
-	position: absolute;
 	width: 15%;
-	top: 20%;
+}
+.tdp-description {
 	left: 32%;
+	position: absolute;
+	top: 20.8%;
+	width: 15%;
 }
 .tdp-case {
-	position: absolute;
-	width: 3%;
 	height: 3%;
 	margin: 0;
+	position: absolute;
+	width: 3%;
 }
 .tdp-case-1 {
 	left: 21.63%;
@@ -77,4 +77,37 @@ footer a {
 }
 .tdp-education {
 	top: 45.05%;
+}
+.tdp-position {
+	height: 2%;
+	margin: 0;
+	position: absolute;
+	width: 2%;
+}
+.tdp-position-1 {
+	left: 25.73%;
+}
+.tdp-position-2 {
+	left: 28.5%;
+}
+.tdp-helm {
+	top: 61.85%;
+}
+.tdp-navigation {
+	top: 65.85%;
+}
+.tdp-science {
+	top: 69.85%;
+}
+.tdp-security {
+	top: 73.85%;
+}
+.tdp-liaison {
+	top: 77.85%;
+}
+.tdp-engineering {
+	top: 81.85%;
+}
+.tdp-medical {
+	top: 85.85%;
 }
